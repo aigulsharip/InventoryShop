@@ -15,6 +15,9 @@ Each product within the system is characterized by the following attributes:
 
 The application employs Hibernate to ensure seamless persistence of product information within a MySQL database.
 
+## Note
+This Spring Boot application was created with help of ChatGPT!
+
 ## Prerequisites
 
 Before running this application, ensure you have the following installed:
