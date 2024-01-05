@@ -30,7 +30,7 @@ Before running this application, ensure you have the following installed:
 Clone this repository to your local machine using the following command:
 
 \`\`\`bash
-git clone https://github.com/yourusername/inventory-management.git
+git clone https://github.com/aigulsharip/InventoryShop.git
 \`\`\`
 
 ### 2. Database Configuration
@@ -41,7 +41,7 @@ git clone https://github.com/yourusername/inventory-management.git
 \`\`\`properties
 spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
 spring.datasource.username=root
-spring.datasource.password=root_password
+spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 \`\`\`
@@ -63,6 +63,16 @@ mvn spring-boot:run
 \`\`\`
 
 The application will start, and you can access it at `http://localhost:8080`.
+
+## Sample Product JSON
+When adding or updating a product, use the following JSON format:
+
+{
+"name": "Laptop",
+"description": "High-performance laptop",
+"price": 999.99,
+"quantity": 10
+}
 
 ## Usage
 
